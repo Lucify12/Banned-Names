@@ -7,6 +7,6 @@ fetch_data = data.split("\n")
 name = input("Enter your name: ")
 
 if name in fetch_data:
-    print(name + " is banned")
+    print(f"{name} is a name banned by the us government")
 else:
-    print(name + " is valid welcome")
+    print(f"{name} is vaild")
